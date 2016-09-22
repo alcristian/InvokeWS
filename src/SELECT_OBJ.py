@@ -62,4 +62,4 @@ class SelectMsgSoap:
     
 if __name__ == '__main__':
     select = SelectMsgSoap()
-    select.execute("""http://apc-des-sp.transacional.getnet.local:7777/integracao/proxy/framework/V1/Integ_FWK_Receber_HabilitacaoProdutoServico?wsdl""", """eventoReceberHabilitacaoProdutoServico""", """#pg_NUM_SESSAO""","""1""","""3""","""FWK_MONITOR_22097001""")
+    select.execute("""#wsdl""", """#action""", """#pg_NUM_SESSAO""","""1""","""3""","""#table""")
